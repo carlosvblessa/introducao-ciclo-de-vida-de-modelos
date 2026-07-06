@@ -16,7 +16,7 @@ Execute o notebook `exercicio_deployment.ipynb`
 Além do notebook, você pode subir uma API simples em Flask para servir o modelo treinado na Aula 3.
 
 ### Pré-requisitos
-- Ambiente Python do curso ativado
+- Ambiente Python 3.10 do curso ativado
 - Dependências instaladas: `pip install -r requirements.txt` (agora inclui Flask)
 - Modelo salvo em `models/best_random_forest.joblib` (gerado na Aula 3)
 
@@ -114,7 +114,7 @@ curl -X POST http://localhost:5000/heart-disease-predict \
 - Para uso de Gunicorn, instale `gunicorn` e ajuste `CMD` no Dockerfile para: `gunicorn -b 0.0.0.0:5000 app:app`
 
 ### .dockerignore
-Arquivo `.dockerignore` criado para reduzir o tamanho da imagem (ignora `mlruns/`, `data/`, `venv/`, caches, etc.).
+Arquivo `.dockerignore` criado para reduzir o tamanho da imagem (ignora `mlruns/`, `data/`, `venv/`, `.venv/`, caches, etc.).
 
 ---
 Esta seção demonstra para os alunos a equivalência entre o encoding da Aula 2 (strings + get_dummies(drop_first)) e o fluxo automatizado de produção dentro do container.

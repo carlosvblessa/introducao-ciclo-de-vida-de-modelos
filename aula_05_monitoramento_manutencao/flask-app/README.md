@@ -16,7 +16,7 @@ Cada requisição gera uma linha (JSON) em `requests.log` com os campos abaixo:
 
 1. Ative o ambiente e instale dependências se ainda não fez:
 ```bash
-python -m venv venv && source venv/bin/activate
+python3.10 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 2. Execute a aplicação (na pasta `aula_05_monitoramento_manutencao/flask-app/`):

@@ -26,12 +26,12 @@ Implemente governança de modelos e ciclos de feedback.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/lfbraz/introducao-ciclo-de-vida-de-modelos.git
+git clone https://github.com/carlosvblessa/introducao-ciclo-de-vida-de-modelos.git
 cd introducao-ciclo-de-vida-de-modelos
 
-# Crie um ambiente virtual
-python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
+# Crie um ambiente virtual com Python 3.10
+python3.10 -m venv .venv
+source .venv/bin/activate  # No Windows: .venv\Scripts\activate
 
 # Instale as dependências
 pip install -r requirements.txt
@@ -63,12 +63,18 @@ jupyter notebook
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python**: Linguagem principal
+- **Python 3.10**: Linguagem principal
 - **Jupyter Notebooks**: Ambiente interativo
 - **MLFlow**: Tracking e gerenciamento de modelos
 - **Scikit-learn**: Biblioteca de ML
 - **Pandas**: Manipulação de dados
 - **Evidently**: Monitoramento de modelos
+
+## Créditos
+
+Este repositório é baseado no projeto original [lfbraz/introducao-ciclo-de-vida-de-modelos](https://github.com/lfbraz/introducao-ciclo-de-vida-de-modelos), criado por Luiz Braz.
+
+As adaptações neste repositório incluem ajustes de ambiente, documentação, Docker, CI/CD e configurações locais para fins de estudo.
 
 ## 📝 Licença
 
