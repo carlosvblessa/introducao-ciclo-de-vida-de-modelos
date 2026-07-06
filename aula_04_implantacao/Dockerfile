@@ -3,7 +3,7 @@
 #   docker build -t heart-api:latest -f aula_04_implantacao/Dockerfile .
 # Isso garante acesso a requirements.txt, models/ e demais pastas.
 
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \

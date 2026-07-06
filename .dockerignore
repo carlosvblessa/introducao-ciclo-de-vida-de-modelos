@@ -1,5 +1,6 @@
 # Ignorar ambientes locais e caches
 venv/
+.venv/
 __pycache__/
 *.pyc
 *.pyo

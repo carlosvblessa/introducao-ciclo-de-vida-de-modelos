@@ -4,7 +4,7 @@ Este guia rápido mostra como usar o pipeline de CI/CD implementado na Aula 06.
 
 ## 📋 Pré-requisitos
 
-- Python 3.8+
+- Python 3.10
 - Dependências instaladas: `pip install -r requirements.txt`
 - Git configurado
 - (Opcional) Conta no GitHub para usar GitHub Actions
