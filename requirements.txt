@@ -5,8 +5,9 @@ numpy>=1.24.0
 pandas>=2.0.0
 scikit-learn>=1.3.0
 
-# MLFlow
-mlflow>=2.10.0
+# MLflow e serialização segura de modelos sklearn
+mlflow>=3.14.0,<4.0.0
+skops>=0.14.0
 
 # Visualization
 matplotlib>=3.7.0
