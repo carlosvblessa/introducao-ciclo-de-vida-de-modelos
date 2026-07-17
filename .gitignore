@@ -206,9 +206,28 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# MLFlow
+# MLflow — estado gerado localmente
 mlruns/
-!aula_06_cicd_automacao/mlruns/
-aula_06_cicd_automacao/mlruns_local/
+mlruns_local/
 mlartifacts/
-.github/copilot-instructions.md
+mlflow-artifacts/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# Relatórios gerados
+/artifacts/
+
+# Modelos gerados pelo experimento distribuído
+/models/best_model.joblib
+/models/best_model.skops
+/models/model_manifest.json
+
+# Variações locais de ambiente
+.env.*
+!.env.example
+
+# Sistema operacional e IDE local
+.DS_Store
+Thumbs.db
+.idea/

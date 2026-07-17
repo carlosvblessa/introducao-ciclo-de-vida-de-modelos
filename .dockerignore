@@ -1,21 +1,23 @@
-# Ignorar ambientes locais e caches
-venv/
-.venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Ignorar tudo por padrão
+**
 
-# MLflow runs e artefatos de experimento (não necessários para runtime da API)
-**/mlruns/
+# Definição do build
+!.dockerignore
+!aula_04_implantacao/
+!aula_04_implantacao/Dockerfile
 
-# Dados brutos (opcional manter fora da imagem para reduzir tamanho)
-data/
+# Dependências
+!requirements.txt
 
-# Git
-.git
-.gitignore
+# Código da API
+!aula_04_implantacao/flask-app/
+!aula_04_implantacao/flask-app/**
 
-# Outros
-.ipynb_checkpoints/
-*.log
+# Único modelo necessário em runtime
+!models/
+!models/best_random_forest.joblib
+
+# Caches eventualmente presentes no código liberado acima
+**/__pycache__/
+**/*.pyc
+**/*.pyo

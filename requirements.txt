@@ -29,3 +29,6 @@ Flask>=3.0.0
 
 # Fairlearn
 fairlearn==0.13.0
+
+# Execução distribuída
+dask[distributed]
