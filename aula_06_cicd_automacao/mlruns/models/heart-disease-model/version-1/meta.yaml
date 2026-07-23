@@ -10,6 +10,6 @@ run_link: null
 source: models:/m-7b2f1d0417df4615a4bec462b4224573
 status: READY
 status_message: null
-storage_location: file:///Users/luiz.braz/Personal-Labs/introducao-ciclo-de-vida-de-modelos/aula_06_cicd_automacao/mlruns/357353175617282740/models/m-7b2f1d0417df4615a4bec462b4224573/artifacts
+storage_location: file:////home/carloslessa/FCD/POSTECH/modulo-extra/01-introducao-ciclo-de-vida-de-modelos/aula_06_cicd_automacao/mlruns/357353175617282740/models/m-7b2f1d0417df4615a4bec462b4224573/artifacts
 user_id: null
 version: 1

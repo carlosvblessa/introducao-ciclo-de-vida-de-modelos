@@ -215,6 +215,9 @@ mlflow.db
 mlflow.db-shm
 mlflow.db-wal
 
+# Bancos SQLite locais da automação (inclui WAL, SHM e backups)
+/aula_06_cicd_automacao/*.db*
+
 # Relatórios gerados
 /artifacts/
 
